@@ -555,6 +555,12 @@ footer{
     display: flex;
     gap: 30px;   
 }
+.footer-social-icons .icon a{
+    color: white;
+}
+.footer-social-icons .icon a:hover{
+    color: var(--second-color)
+}
 .bottom-footer{
     font-size: 14px;
     margin-top: 10px;
