@@ -618,6 +618,12 @@ footer{
     .social_icons{
         margin-top: 2em;
     }
+    .icon a{
+    color: rgb(110, 87, 224);
+    }
+    .icon a:hover{
+    color: white;
+    }
 
     .featured-image{
         order: 1;
@@ -676,6 +682,12 @@ footer{
     }
     .scroll-btn{
         display: none;
+    }
+    .icon a{
+    color: rgb(110, 87, 224);
+    }
+    .icon a:hover{
+    color: white;
     }
     .nav-menu{
         position: fixed;
