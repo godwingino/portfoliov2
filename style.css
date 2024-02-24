@@ -598,6 +598,7 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
+        color: #ccc;
     }
     .featured-box{
         flex-direction: column;
@@ -654,6 +655,12 @@ footer{
 @media only screen and (max-width: 540px){
     .featured-name{
         font-size: 40px;
+    }
+    .nav-menu-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ccc;
     }
     .project-box{
         width: 100%;
