@@ -242,6 +242,18 @@ nav{
     color: white;
 }
 
+.fact{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--second-color);
+}
+
+.fact i{
+   font-size: 30px; 
+}
+
 /* ----- FEATURED IMAGE BOX ----- */
 .featured-image{
     display: flex;
@@ -623,6 +635,10 @@ footer{
     }
     .social_icons{
         margin-top: 2em;
+    }
+    .fact{
+        font-size: 15px;
+        margin-top: 0px;
     }
     .icon a{
     color: rgb(110, 87, 224);
