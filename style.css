@@ -235,8 +235,11 @@ nav{
     cursor: pointer;
     color: white;
 }
-.icon:hover{
-    color: var(--first-color);
+.icon a{
+    color: rgb(110, 87, 224);
+}
+.icon a:hover{
+    color: white;
 }
 
 /* ----- FEATURED IMAGE BOX ----- */
