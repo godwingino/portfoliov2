@@ -19,6 +19,27 @@
     --real: rgb(0, 0, 0);
 
 }
+/* Scroll Bar */
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--body-color);
+    box-shadow: rgba(0, 255, 251, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--second-color);
+  }
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--second-color);
+  }
+  
 
 /* ----- BASE ----- */
 *{
